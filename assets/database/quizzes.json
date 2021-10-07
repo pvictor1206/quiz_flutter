@@ -1,7 +1,6 @@
 [
   {
     "title": "Primeiro Quizz",
-    "imagem": "blocks",
     "questionAnswered": 1,
     "questions": [
       {"title": "Está curtindo o Flutter?", "awnsers": [

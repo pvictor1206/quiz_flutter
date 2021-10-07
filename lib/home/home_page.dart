@@ -43,21 +43,7 @@ class _HomePageState extends State<HomePage> {
 
                 SizedBox(height: 24,),
 
-                Expanded(
-                  child: GridView.count(
-                    crossAxisSpacing: 16,
-                    mainAxisSpacing: 16,
 
-                    crossAxisCount: 2,
-                    children: controller.quizzes!.map((e) =>
-                        QuizCardWidget(
-                          title: e.title,
-                          completed: "${e.questionAnswerd}/${e.question
-                              .length}",
-                          porcent: e.questionAnswerd / e.question.length,
-                        )).toList(),
-                  ),
-                ),
 
 
               ],
